@@ -48,11 +48,11 @@ block content
 
 										if shouldAllowEditingDetails
 											.form-group
-												label(for='firstName').control-label #{translate("first_name_here")}
+												label(for='firstName').control-label #{translate("first_name")}
 												input.form-control(
 													id="firstName"
 													type='text',
-													name='first_name_here',
+													name='first_name',
 													value=user.first_name
 													ng-non-bindable
 												)
@@ -76,7 +76,7 @@ block content
 												)  #{translate("update")}
 										else
 											.form-group
-												label.control-label #{translate("first_name_here")}
+												label.control-label #{translate("first_name")}
 												div.form-control(
 													readonly="true",
 													ng-non-bindable
