@@ -52,7 +52,7 @@ block content
 												input.form-control(
 													id="firstName"
 													type='text',
-													name='first_name',
+													name='first_name_here',
 													value=user.first_name
 													ng-non-bindable
 												)
@@ -76,7 +76,7 @@ block content
 												)  #{translate("update")}
 										else
 											.form-group
-												label.control-label #{translate("first_name")}
+												label.control-label #{translate("first_name_here")}
 												div.form-control(
 													readonly="true",
 													ng-non-bindable
